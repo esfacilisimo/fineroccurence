@@ -1,1 +1,1 @@
-# betterthanvanillatweaks
+# betterthantweaking
