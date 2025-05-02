@@ -105,11 +105,38 @@ body {
   background-color: #010945;
   overflow: hidden;
 }
-</style>
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-right: 200px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  </style>
 </head>
 <body>
 
-
+<div class="main">
 <button class="accordion">Aesthetic</button>
 <div class="panel">
   <p>
@@ -187,7 +214,13 @@ body {
 <div class="panel">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-
+</div>
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
