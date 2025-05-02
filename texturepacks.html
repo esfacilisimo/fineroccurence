@@ -57,13 +57,28 @@
 <div class="panel">
   <p>Test</p>
 </div>
-
-
     
 <button class="accordion">Section 1</button>
 <div class="panel">
   <p>test</p>
 </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
     
     <details>
       <summary>Aesthetic</summary>
