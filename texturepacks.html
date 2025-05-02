@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <a href="index"><img src="page/header/fineroccurence.png" alt="Header"style=object-fit:cover;position:relative;margin-left:auto;margin-right:auto;display:block;"></a>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <a href="index"><img src="page/header/fineroccurence.png" alt="Header"style=object-fit:cover;position:relative;margin-left:auto;margin-right:auto;display:block;"></a>
     <title>FO Texture Packs</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
     <style>
         body {
             background-image: url('background-stoneblocks.png');
@@ -67,9 +113,39 @@
 <button class="accordion">Aesthetic</button>
 <div class="panel">
   <p>
-     <button onclick="alert('Makes dandelions easier in the eyes. <br> By esfacilisimo')">Better Dandelions</button><button onclick="alert('Makes dandelions easier in the eyes. <br> By esfacilisimo')">Better Dandelions</button>
-     <br><img src="packs/th/dandelion.png" alt="Dandelion Image" style="object-fit:cover;width:7%;height:7%;"><img src="packs/th/dandelion.png" alt="Dandelion Image" style="object-fit:cover;width:7%;height:7%;">
-     <br><button onclick="window.location='packs/dandelion.zip'">Download</button><button onclick="window.location='packs/dandelion.zip'">Download</button>
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 4</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div></p>
 </div>
 <button class="accordion">Utility</button>
 <div class="panel">
