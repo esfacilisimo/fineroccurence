@@ -145,7 +145,7 @@
    <div class="row">
   <div class="column">
     <div class="card">
-      <button class="button" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Better Dandelions</button>
+      <button class="button" onclick="changeImage() style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Better Dandelions</button>
       <p><img src="packs/th/dandelion.png" style="width:75%;"></p>
       <p><a href="packs/dandelion.zip"><button class="button" style="width:100%;">Download</button></a></p>
     </div>
@@ -175,6 +175,16 @@
   <a href="#clients">3</a>
   <img src="packs/th/dandelion.png" style="width:75%;">
 </div>
+
+<script> 
+function changeImage()
+{
+var img = document.getElementById("image");
+img.src="packs/th/dandelion.png";
+return false;
+}
+</script>
+
 
 <script>
 var acc = document.getElementsByClassName("accordion");
