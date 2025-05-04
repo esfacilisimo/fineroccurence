@@ -143,7 +143,6 @@
 <div class="panel">
 <button class="accordion">Aesthetic</button>
 <div class="panel">
-  <button class="button" style="width:10%;float:right;" onclick="aestheticAll()" ">Download All</button>
   <p>
    <div class="row">
   <div class="column">
@@ -319,33 +318,6 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
 
-<!-- Download All -->
-  
-<script>
-var links = [
-  'packs/aesthetic/dandelion.zip',
-  'packs/aesthetic/feather.zip',
-  'packs/aesthetic/uniquedyesFO.zip'
-  'packs/aesthetic/uniquepowders.zip'
-]
-
-function aestheticAll() {
-  var link = document.createElement('a');
-
-  link.setAttribute('download', null);
-  link.style.display = 'none';
-
-  document.body.appendChild(link);
-
-  for (var i = 0; i < urls.length; i++) {
-    link.setAttribute('href', urls[i]);
-    link.click();
-  }
-
-  document.body.removeChild(link);
-}
-</script>
-  
 </details>
 </select>
 </body>
