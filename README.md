@@ -1,5 +1,5 @@
 # fineroccurence
-<code>*(finer = better) (than) (occurence = adventure)*</code>
+<code>*(finer ≈ better) (than) (occurence ≈ adventure)*</code>
 
 A front-end for my _(as of now)_ BTA projects, be it:</br>
 <code>• *texturepacks*</code></br>
