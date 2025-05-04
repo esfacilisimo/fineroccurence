@@ -3,10 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Header -->
+  
 <div class=header>
   <a href="index"><img src="page/header/fineroccurence.png" alt="Header"style=object-fit:cover;position:relative;margin-left:30%;margin-right:auto;display:block;width:15%;"></a>
 </div>
     <title>FO - Texturepacks</title>
+
+<!-- Style -->
+  
 <style>
 * {
   box-sizing: border-box;
@@ -15,7 +21,7 @@
      background-image: url('page/header/headerback.png');
      height: 10%; 
       }
-/* Float four columns side by side */
+/* Float # columns side by side */
 .column {
   float: left;
   width: 10%;
@@ -32,7 +38,7 @@
   clear: both;
 }
 
-/* Responsive columns */
+/* Columns */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -41,7 +47,7 @@
   }
 }
 
-/* Style the counter cards */
+/* Card Style */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -60,33 +66,33 @@
   overflow-x: hidden;
   padding-top: 20px;
 }
- body {
-      background-image: url('background-stoneblocks.png');
-      background-color: #242424;
-      font-family: Arial, sans-serif;
-      color: #ffffff;
-      text-align: center;
-      margin-top: 0px;
-      margin: 0px;
-        }
-        button {
-            border-color: #103e6b;
-            margin: 0px;
-            padding: 15px 0px;
-            font-size: 16px;
-            cursor: pointer;
-            color: white;
-            background-color:#010945;
-            width:7%;
-            height:25%;
-            z-index:1;
-            position:relative;
-        }
-        h10 {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        }
+body {
+  background-image: url('background-stoneblocks.png');
+  background-color: #242424;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0px;
+  margin: 0px;
+}
+button {
+  border-color: #103e6b;
+  margin: 0px;
+  padding: 15px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color:#010945;
+  width:7%;
+  height:25%;
+  z-index:1;
+  position:relative;
+}
+h10 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
 .accordion {
   background-color:#010945;
   color: white;
@@ -99,7 +105,6 @@
   font-size: 15px;
   transition: 0.4s;
   font-family: Arial, sans-serif;
-  
 }
 
 .active, .accordion:hover {
@@ -138,13 +143,21 @@
 </head>
 <body>
 
+<!-- Main Contents -->
+  
 <div class="main">
 <button class="accordion">Vanilla Tweak-ish Packs</button>
 <div class="panel">
+
+<!-- Aesthetic Packs -->
+  
 <button class="accordion">Aesthetic</button>
 <div class="panel">
   <p>
    <div class="row">
+
+  <!-- Dandelion -->
+     
   <div class="column">
     <div class="card">
       <button class="button" id="dandelion" onclick="dandelion()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Happier Dandelions</button>
@@ -153,6 +166,8 @@
     </div>
   </div>
 
+  <!-- Dyes -->
+     
   <div class="column">
     <div class="card">
       <button class="button" id="uniquedyes" onclick="dyes()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Unique Dyes</button>
@@ -161,6 +176,8 @@
     </div>
   </div>
 
+  <!-- Powders -->
+     
   <div class="column">
     <div class="card">
       <button class="button" id="uniquepowders" onclick="powders()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Unique Powders</button>
@@ -169,6 +186,8 @@
     </div>
   </div>
 
+  <!-- Feather -->
+     
   <div class="column">
     <div class="card">
       <button class="button" id="feather" onclick="feather()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Alternate Feather</button>
@@ -176,16 +195,28 @@
       <p><a href="packs/aesthetic/feather.zip"><button class="button" style="width:100%;">Download</button></a></p>
     </div>
   </div>
+
+  <!-- Add more packs here -->
+     
 </div></p>
 </div>
+
+<!-- Utility Packs -->
+  
 <button class="accordion">Utility</button>
 <div class="panel">
   <p>No packs in here yet...</p>
 </div>
+
+<!-- Fix & Consistency Packs -->
+  
 <button class="accordion">Fixes & Consistency</button>
 <div class="panel">
-  <p>   <div class="row">
+  <p><div class="row">
   <div class="column">
+
+  <!-- Bed & Seat -->
+    
     <div class="card">
       <button class="button" id="consistentBedAndSeat" onclick="bedandseat()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Consistent Bed & Seat</button>
       <p><img src="packs/thumb/bedandseat.png" onclick="bedandseat()" style="width:75%;"></p>
@@ -193,6 +224,8 @@
     </div>
   </div>
 
+  <!-- Red Cloth -->
+    
   <div class="column">
     <div class="card">
       <button class="button" id="redcloth" onclick="redcloth()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Red Cloth</button>
@@ -201,6 +234,8 @@
     </div>
   </div>
 
+  <!-- Consistent Wool -->
+    
   <div class="column">
     <div class="card">
       <button class="button" id="consistentwool" onclick="consistentwool()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Consistent Wool</button>
@@ -208,6 +243,9 @@
       <p><a href="packs/fixesandconsistency/consistentwool.zip"><button class="button" style="width:100%;">Download</button></a></p>
     </div>
   </div>
+
+  <!-- Add more packs here -->
+    
 </div></p>
 </div>
 <button class="accordion">Other</button>
@@ -215,6 +253,13 @@
   <p>No packs in here yet...</p>
 </div>
 </div>
+
+<!-- Pack Preview Window -->
+
+<!-- Main Contents End Here -->
+
+<!-- Pack Preview Window -->
+
 <div class="sidenav">
   <h4>Automatic texture pack merging has not yet been implemented, but it is planned.</h4>
   <br>
@@ -223,7 +268,7 @@
 </div>
 </div>
 
-<!-- Aesthetic Packs -->
+<!-- Aesthetic Pack Previews -->
 
 <script> 
 function dandelion()
@@ -261,7 +306,7 @@ return false;
 }
 </script>
 
-<!-- Fixes & Consistency Packs -->
+<!-- Fixes & Consistency Pack Previews -->
   
 <script>
 function bedandseat()
