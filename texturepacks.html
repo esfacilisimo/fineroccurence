@@ -234,7 +234,7 @@ button {
      
   <div class="column">
     <div class="card">
-      <button class="button" id="stone" onclick="basaltbricks()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Clearer Basalt Bricks</button>
+      <button class="button" id="basaltbricks" onclick="basaltbricks()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Clearer Basalt Bricks</button>
       <p><img src="packs/thumb/basaltbricks.png" onclick="basaltbricks()" style="width:75%;"></p>
       <p><a href="packs/aesthetic/basaltbricks.zip"><button class="button" style="width:100%;">Download</button></a></p>
     </div>
@@ -247,6 +247,16 @@ button {
       <button class="button" id="stone" onclick="stone()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Rougher Stones</button>
       <p><img src="packs/thumb/stone.png" onclick="stone()" style="width:75%;"></p>
       <p><a href="packs/aesthetic/stone.zip"><button class="button" style="width:100%;">Download</button></a></p>
+    </div>
+  </div>
+
+<!-- Rougher Stones -->
+     
+  <div class="column">
+    <div class="card">
+      <button class="button" id="moss" onclick="moss()" style="width:100%;background-color:#103e6b;border:0;padding:0px;font-variant:all-petite-caps;">Thinner Moss Overlay</button>
+      <p><img src="packs/thumb/moss.png" onclick="moss()" style="width:75%;"></p>
+      <p><a href="packs/aesthetic/moss.zip"><button class="button" style="width:100%;">Download</button></a></p>
     </div>
   </div>
   
@@ -455,6 +465,16 @@ img.src="packs/preview/stone.png";
 return false;
 }
 </script>
+
+<script>
+function moss()
+{
+var img = document.getElementById("image");
+img.src="packs/preview/moss.png";
+return false;
+}
+</script>  
+  
 
 <!-- 3D Pack Previews -->
   
